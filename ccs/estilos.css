@@ -1,0 +1,938 @@
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+.header {
+    width: 100%;
+    background-color: #000000;
+}
+
+.header__img {
+    width: 100%;
+}
+
+.header__nav {
+    background-image: url(../img/fotonavyfooter.jpg);
+    width: 100%;
+    padding: 1rem 2rem 1rem 2rem  ;
+}
+
+.header__navlist {
+    max-width: 250rem;
+    padding: 1rem 3rem 1rem 3rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    align-content: space-between;
+    list-style: none;
+}
+
+.headeritem {
+    text-decoration: none;
+    max-width:40rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.header__navitema {
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    align-self: left;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+.header__navitem--activo {
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas Neue', cursive;
+    align-self: left;
+    font-size: 2.75rem;
+}
+
+/* cierre de header */
+
+
+/*Main*/
+
+.main {
+    background-color: black;
+    max-width: 200
+    rem;
+}
+
+.main__div {
+   display:block;
+    margin: auto;
+    text-align: center;
+}
+
+.main__img {
+    max-width: 50rem;
+    align-self: center;
+    padding: 1rem;
+}
+
+.main__video {
+    max-width: 300rem;
+    align-self: center;
+    margin:  2rem 5rem 5rem 5rem ;
+}
+
+.main__h1 {
+    color: rgb(0, 255, 21);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.75rem;
+    padding:  2rem 3rem 2rem 3rem;
+}
+
+.main__h2 {
+    color: rgb(253, 253, 253);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2rem;
+    padding:  1rem 3rem 1rem 3rem;
+}
+
+.main__h2especial {
+    color: rgb(0, 255, 21);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 3rem;
+    padding:  3rem 3rem 1rem 3rem;
+    background-color: black;
+   
+}
+
+.main__h3 {
+    color: rgb(253, 253, 253);
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:  1rem 3rem 1rem 3rem;
+}
+
+.main__p {
+    color: rgb(253, 253, 253);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    text-align: justify;
+}
+
+.main__top10 {
+    max-width: 110rem;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: space-between;
+    list-style: none;
+}
+
+.main__item {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    max-width:21rem;
+    text-justify: distribute;
+}
+
+.main__aamazon {
+    color: rgb(99, 255, 2);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 1rem;
+    padding: 1rem 3rem 2rem 3rem;
+    text-align: justify;
+}
+
+.main__secflex {
+    max-width: 150rem;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.main__pflex {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    max-width:28rem;
+    text-justify: distribute;
+}
+
+.main__pflexmin {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    max-width:35rem;
+    text-justify: distribute;
+}
+
+.main__imgmin {
+    max-width: 22rem;
+    align-self: center;
+    padding: 2rem;
+}
+
+/* Cierre de Main*/
+
+
+/*Contacto*/
+
+.contacto__main {
+        background-color:#000000;
+        justify-content: center;
+    }    
+
+    .texto__contacto {
+            color: rgb(253, 253, 253);
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight:bold;
+            font-size: 1rem;
+            padding: 0.5rem 3rem 0.5rem 3rem;
+            text-align: justify;
+    }
+
+    .contacto__divtexto {
+        color: rgb(2, 2, 2);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        padding: 1rem 3rem 1rem 3rem;
+        text-align: justify;
+    }
+
+    .main__itemcontacto {
+    color: rgb(0, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border: 1rem;
+    text-align: justify; 
+    }
+
+.contacto__div {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    }
+
+
+.contacto__form {
+    background-image: url(../img/fotocontactos.jpg);
+    max-width: 40rem;
+    width: 100%;
+    padding: 2rem;
+    margin: auto; 
+    display: block;
+    }
+    
+.contacto__select   {
+    margin: 0rem 0rem 0.2rem 0rem;
+    }
+
+.contacto__label   {
+        color: rgb(0, 0, 0);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        text-align: justify;   
+        text-align: left;
+        padding:1rem 0rem 0.5rem 0rem;
+    }
+
+.contacto__titulo   {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(9, 255, 0);
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    }
+
+    .contacto__boton {
+    margin: 0.5rem; 
+    display: block;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: justify;   
+    text-align: center;
+    }
+
+/* cierre del contacto */
+
+
+/*footer*/
+
+.footer  {
+    background-image: url(../img/fotonavyfooter.jpg);
+    width: 100%;
+}
+
+.footer__p1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 1rem 5rem 0.3rem 5rem;
+    text-align: center;
+}
+
+.footer__p2 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 0rem 5rem 1rem 5rem;
+    text-align: center;
+}
+
+.footer__pespecial {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    color: rgb(253, 253, 253);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    text-align:center;
+    background-color: #000000;
+}
+
+.footer__img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+    align-self: center;
+}
+
+.footer__a {
+    color: rgb(255, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    padding:  0.5rem 0rem 0rem 0.5rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/*cierre del footer */
+
+
+
+
+
+ /* media queries*/
+ @media screen and (max-width:1024px) {  
+    
+    .header__nav {
+            background-image: url(../img/fotonavyfooter.jpg);
+            width: 100%;
+            padding: 0.5rem 2rem 0.5rem 2rem  ;
+        }
+        
+    .header__navlist {
+            max-width: 64rem;
+            padding: 0.5rem 2rem 0.5rem 2rem ;
+            margin: auto;
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            align-content: space-between;
+            list-style: none;
+        }
+        
+    .headeritem {
+            text-decoration: none;
+            max-width:10rem;
+            padding:  0.5rem 2rem 0.5rem 2rem ;
+        }
+        
+    .header__navitema {
+            color: rgb(0, 0, 0);
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.5rem;
+            text-decoration: none;
+        }
+        
+    .header__navitem--activo {
+            color: rgb(255, 255, 255);
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.8rem;
+        }
+        
+    .main__h1 {
+        color: rgb(0, 255, 21);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        text-align: left;
+        font-size: 2.5rem;
+        padding:   2rem 2.5rem 0.7rem 2.5rem;
+         }
+    
+    .main__h2 {
+        color: rgb(253, 253, 253);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        text-align: left;
+        font-size: 2.3rem;
+        padding:   1rem 2.5rem 0.7rem 2.5rem;
+         }
+    
+    .main__h2especial {
+        color: rgb(0, 255, 21);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        text-align: left;
+        font-size: 2.3rem;
+        padding: 3rem 2.5rem 0rem 2.5rem;
+        background-color: black;
+         }
+    
+    .main__h3 {
+        color: rgb(253, 253, 253);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        text-align: left;
+        font-size: 1.5rem;
+        padding: 1rem 2.5rem 0.7rem 2.5rem;
+         }
+    
+    .main__p {
+        color: rgb(253, 253, 253);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 1rem;
+        padding: 1rem 2.5rem 1rem 2.5rem;
+        text-align: justify;
+         }
+
+    .main__pflex {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            max-width:20rem;
+            text-justify: distribute;
+        }
+
+    .main__pflexmin {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        max-width:18rem;
+        text-justify: distribute;
+         }
+    
+    .main__img {
+        max-width: 50rem;
+        align-self: center;
+        padding: 0.5rem;
+         }
+
+         .main__imgmin {
+            max-width: 18rem;
+            align-self: center;
+            padding: 2rem;
+        }
+    
+    .main__video {
+        max-width: 100rem;
+        align-self: center;
+        margin:  1rem 2rem 1rem 2rem ;
+         }
+    
+    .main__aamazon {
+        color: rgb(99, 255, 2);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight:bolder;
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        text-align: justify;
+         }
+    
+    .contacto__titulo   {
+        font-family: 'Bebas Neue', cursive;
+        color: rgb(9, 255, 0);
+        font-weight: bold;
+        font-size: 2rem;
+        text-align: center;
+        padding: 2rem;
+        }
+    
+    .texto__contacto {
+            color: rgb(253, 253, 253);
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-weight:bold;
+            font-size: 1.1rem;
+            padding: 0.2rem 2.5rem 0.2rem 2.5rem;
+            text-align: justify;
+         }
+    
+    .footer__p1 {
+        color: rgb(0, 0, 0);
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bolder;
+        font-size: 2rem;
+        padding: 0.7rem 1rem 0.2rem 1rem;
+        text-align: center;
+          }
+    
+    .footer__p2 {
+        color: rgb(0, 0, 0);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        padding: 0.2rem 1rem 0.7rem 1rem;
+        text-align: center;
+         }
+    
+    .footer__pespecial {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        color: rgb(253, 253, 253);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 1rem;
+        padding: 0.7rem 1rem 0.7rem 2rem;
+        text-align:center;
+        background-color: #000000;
+         }
+    
+    .footer__img {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        align-self: center;
+         }
+    
+    .footer__a {
+        color: rgb(255, 0, 0);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+        padding:  0.7rem 1rem 0.7rem 1rem;
+        text-decoration: underline;
+        text-align: center; 
+         }
+      
+}
+
+@media screen and (max-width: 768px) {  
+
+.header__nav {
+        background-image: url(../img/fotonavyfooter.jpg);
+        width: 100%;
+        padding: 0.2rem 1.5rem 0.2rem 1.5rem  ;
+    }
+    
+.header__navlist {
+        max-width: 54rem;
+        padding: 0.2rem 1.5rem 0.2rem 1.5rem ;
+        margin: auto;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: space-between;
+        list-style: none;
+    }
+    
+.headeritem {
+        text-decoration: none;
+        max-width:8rem;
+        padding:  0.2rem 2rem 0.2rem 2rem ;
+    }
+    
+.header__navitema {
+        color: rgb(0, 0, 0);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+    
+.header__navitem--activo {
+        color: rgb(255, 255, 255);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.8rem;
+    }
+    
+.main__h1 {
+    color: rgb(0, 255, 21);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.5rem;
+    padding:   2rem 2.5rem 0.7rem 2.5rem;
+     }
+
+.main__h2 {
+    color: rgb(253, 253, 253);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.3rem;
+    padding:   1rem 2.5rem 0.7rem 2.5rem;
+     }
+
+.main__h2especial {
+    color: rgb(0, 255, 21);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.3rem;
+    padding: 3rem 2.5rem 0rem 2.5rem;
+    background-color: black;
+     }
+
+.main__h3 {
+    color: rgb(253, 253, 253);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 1rem 2.5rem 0.7rem 2.5rem;
+     }
+
+.main__p {
+    color: rgb(253, 253, 253);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    text-align: justify;
+     }
+
+.main__pflex {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        max-width:22rem;
+        text-justify: distribute;
+    }
+
+.main__pflexmin {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    max-width:21rem;
+    text-justify: distribute;
+     }
+
+.main__img {
+    max-width: 40rem;
+    align-self: center;
+    padding: 0.5rem;
+     }
+
+.main__imgmin {
+        max-width: 20rem;
+        align-self: center;
+        padding: 2rem;
+    }
+
+.main__video {
+    max-width: 80rem;
+    align-self: center;
+    margin:  1rem 2rem 1rem 2rem ;
+     }
+
+.main__aamazon {
+    color: rgb(99, 255, 2);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 1rem;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    text-align: center;
+     }
+
+.contacto__titulo   {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(9, 255, 0);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    }
+
+.texto__contacto {
+        color: rgb(253, 253, 253);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 100;
+        font-size: 1rem;
+        padding: 0.2rem 2.5rem 0.2rem 2.5rem;
+        text-align: justify;
+     }
+
+.footer__p1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 0.7rem 1rem 0.2rem 1rem;
+    text-align: center;
+      }
+
+.footer__p2 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5rem;
+    padding: 0.2rem 1rem 0.7rem 1rem;
+    text-align: center;
+     }
+
+.footer__pespecial {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    color: rgb(253, 253, 253);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding: 0.7rem 1rem 0.7rem 2rem;
+    text-align:center;
+    background-color: #000000;
+     }
+
+.footer__img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    align-self: center;
+     }
+
+.footer__a {
+    color: rgb(255, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding:  0.7rem 1rem 0.7rem 1rem;
+    text-decoration: underline;
+    text-align: center; 
+     }
+}
+
+ @media screen and (max-width: 425px) {  
+    
+.header__nav {
+        background-image: url(../img/fotonavyfooter.jpg);
+        width: 100%;
+        padding: 0.1rem 0rem 0.1rem 0rem  ;
+    }
+    
+.header__navlist {
+        max-width: 20rem;
+        padding: 0.1rem 0rem 0.1rem 0rem ;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: space-between;
+        list-style: none;
+    }
+    
+.headeritem {
+        text-decoration: none;
+        max-width:3rem;
+        padding: 0.1rem 0rem 0.1rem 0rem ;
+    }
+    
+.header__navitema {
+        color: rgb(0, 0, 0);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.1rem;
+        text-decoration: none;
+    }
+    
+.header__navitem--activo {
+        color: rgb(255, 255, 255);
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.3rem;
+    }
+    
+.main__h1 {
+    color: rgb(0, 255, 21);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.6rem;
+    padding:  0.5rem 1rem 0.5rem 1rem;
+     }
+
+.main__h2 {
+    color: rgb(253, 253, 253);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.3rem;
+    padding:  0.5rem 1.2rem 0.5rem 1rem;
+     }
+
+.main__h2especial {
+    color: rgb(0, 255, 21);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.2rem;
+    padding:  1rem 1.5rem 0.2rem 0.8rem;
+    background-color: black;
+     }
+
+.main__h3 {
+    color: rgb(253, 253, 253);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.2rem 0.5rem 1rem;
+     }
+
+.main__p {
+    color: rgb(253, 253, 253);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: justify;
+     }
+
+.main__pflexmin {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    max-width:20rem;
+    text-justify: distribute;
+     }
+
+.main__img {
+    max-width: 20rem;
+    align-self: center;
+    padding: 0.5rem;
+     }
+
+.main__video {
+    max-width: 18rem;
+    align-self: center;
+    margin:  0.5rem 0.7rem 0.5rem 0.7rem ;
+     }
+
+.main__aamazon {
+    color: rgb(99, 255, 2);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: justify;
+     }
+
+.contacto__titulo   {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(9, 255, 0);
+    font-weight: 100;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    }
+
+    .texto__contacto {
+        color: rgb(253, 253, 253);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight:100;
+        font-size: 0.9rem;
+        padding: 0.2rem 1rem 0.2rem 1rem;
+        text-align: justify;
+     }
+
+.footer__p1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.2rem 0.2rem 0.2rem;
+    text-align: center;
+      }
+
+.footer__p2 {
+    color: rgb(0, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.68rem;
+    padding: 0.2rem 0.2rem 0.5rem 0.2rem;
+    text-align: center;
+     }
+
+.footer__pespecial {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    color: rgb(253, 253, 253);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-align:center;
+    background-color: #000000;
+     }
+
+.footer__img {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.3rem;
+    align-self: center;
+     }
+
+.footer__a {
+    color: rgb(255, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 0.5rem;
+    padding:  0.2rem 0rem 0rem 0.2rem;
+    text-decoration: underline;
+    text-align: center; 
+     }
+  
+}
+
+
+
+
+    
+ /*cierre media queries*/
